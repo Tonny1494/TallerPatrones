@@ -24,8 +24,8 @@ public class Integrador {
      */
     public static void main(String[] args) {
         // FACTURACIÓN
-        ComprobantesFactory f1 = new ComprobantesFactory();
-        ComprobanteElectronico c = f1.getComprobante("FACTURA");
+        ComprobantesFactory fact = new ComprobantesFactory();
+        ComprobanteElectronico c = fact.getComprobante("FACTURA");
 
         c.setClaveAcceso("UTAX1960");
         c.setCodigo(1960);
